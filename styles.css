@@ -1,0 +1,197 @@
+body {
+    margin: 0;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+}
+
+
+ul {
+    list-style-type: none;
+    display: flex;
+    gap: 18px;
+}
+
+a {
+    text-decoration-line: none;
+    color: #F9FAF8;
+}
+
+.header {
+    background-color: #1F2937;
+    width: 100%;
+}
+
+.header-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-size: 24px;
+    color: #F9FAF8;
+    font-weight: 900;
+}
+
+.hero {
+    background-color: #1F2937;
+    width: 100%;
+}
+
+.quote {
+    background-color: #E5E7EB;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    padding: 100px 20px;
+}
+
+.hero-image {
+    width: 550px;
+    height: 275px;
+}
+
+.hero-title {
+    font-size: 48px;
+    color: #F9FAF8;
+    font-weight: 900;
+}
+
+.hero-text {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.sign-up {
+  padding: 8px 36px;
+  border-radius: 6px;
+  background-color: #3882F6;
+  color: white;
+  border: 1px solid royalblue;
+  font-weight: bold;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.hero-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 84px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.hero-left {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 16px;
+}
+
+.hero-right {
+    margin-left: 56px;
+}
+
+.christmas {
+    width: 175px;
+    height: 175px;
+    border-radius: 16px;
+}
+
+.information {
+    width: 100%;
+}
+
+.info-title {
+    display: flex;
+    justify-content: center;
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 900;
+}
+
+.info-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    margin-bottom: 64px;
+    padding: 32px;
+}
+
+.info-boxes {
+    display: flex;
+    justify-content: center;
+    gap: 32px;
+    margin-top: 32px;
+    text-align: center;
+}
+
+.quote-text {
+    color: #1F2937;
+    font-size: 32px;
+    font-weight: 300;
+    font-style: italic;
+}
+
+.quote-author {
+    font-weight: bold;
+    align-self: flex-end;
+    font-size: 22px;
+}
+
+.quote-container {
+    max-width: 1200px;
+    display: flex;
+    flex-direction: column;
+}
+
+.modal {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 100px 20px;
+}
+
+.modal-box {
+    width: 1200px;
+    background-color: #3882F6;
+    border-radius: 8px;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px 84px
+}
+
+.modal-title {
+    font-weight: 900;
+    font-size: 16px;
+}
+
+.modal-text {
+    font-size: 14px;
+}
+
+.modal-sign-up {
+    cursor: pointer;
+    font-weight: bold;
+    padding: 8px 36px;
+    border: 1px solid white;
+    background-color: #3882F6;
+    color: white;
+    border-radius: 6px;
+}
+
+.footer {
+    width: 100%;
+    background-color: #1F2937;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 24px;
+}
